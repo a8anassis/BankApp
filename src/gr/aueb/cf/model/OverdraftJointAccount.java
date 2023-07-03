@@ -22,7 +22,7 @@ public class OverdraftJointAccount extends JointAccount {
 
             setBalance(getBalance() - amount);
         } catch (SsnNotValidException | NegativeAmountException e) {
-            System.out.println("Error: withdrawal");
+            System.err.println("Error: withdrawal");
             throw e;
         }
     }
