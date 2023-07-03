@@ -1,1 +1,2 @@
 # BankApp
+Bank Monolithic app
